@@ -1,0 +1,16 @@
+header { background: #23253c; padding: 20px 0;}
+.main { width: 1500px; margin: 0 auto;}
+.h-line { display: flex; justify-content: space-between; align-items: center; position: relative;}
+.ico-cart img {transition: all ease-in-out 0.2s;}
+.ico-cart { width: 30px; cursor: pointer; position: relative;}
+.ico-cart:hover img { transform: scale(1.1);}
+.ico-cart:hover .order-count {transform: scale(1.1);}
+.header-cart-info { opacity: 0; position: absolute; top: 60px; right: 0; width: 300px; padding: 20px; box-shadow: 0 0 5px rgba(0,0,0,0.5); background-color: #fff; transition: all ease-in-out 0.25s;}
+.active { opacity: 1;}
+.header-cart-item { display: flex; font-size: 14px; position: relative;}
+    .header-cart-item__img { width: 60px; margin: 0 20px 0 0;}
+    .header-cart-item__name { color: #23253c;}
+    .header-cart-item__price { color: #444;}
+    .del-order-cart { position: absolute; top: 0; right: 0; color: #444; transition: all ease-in-out 0.2s; cursor: pointer;}
+    .del-order-cart:hover { color: #ff1528;}
+    .order-count { width: 17px; height: 17px; background-color: #fff; box-sizing: border-box; font-size: 12px; border-radius: 50%; position: absolute; right: 4px; top: -2px; text-align: center;transition: all ease-in-out 0.2s;}
